@@ -221,7 +221,6 @@ export default function AuthForm() {
         
         {/* Right panel - Image and testimonial */}
         <div className="hidden lg:block lg:w-1/2 relative bg-gray-100 dark:bg-gray-900">
-          {/* Background image */}
           <div className="absolute inset-0 overflow-hidden">
             <Image
               src={team1}
