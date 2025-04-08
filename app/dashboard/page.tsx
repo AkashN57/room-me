@@ -57,9 +57,7 @@ export default function TeamsDashboard() {
     router.push("/");
   };
 
-  const toggleDarkMode = () => {
-    setDarkMode(!darkMode);
-  };
+ 
 
   const sidebarItems = [
     { icon: Video, label: "Meetings", key: "meetings" },
